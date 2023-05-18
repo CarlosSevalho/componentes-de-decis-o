@@ -1,0 +1,10 @@
+var hoje = prompt ('ano atual')
+var nascimento = prompt ('ano de nascimento')
+var inspetor = (hoje - nascimento)
+
+if (inspetor=>16){
+  alert ('aprovado para votar')
+}
+else if (inspetor<16){
+  alert ('não foi aprovado ao direito de voto')
+}
